@@ -25,6 +25,12 @@ try:
             password += random.choice(special_symbols)
         password += random.choice(letters)
 
+    if int(length)%3 == 0:
+        for i in range(int(length/3)):
+            password += random.choice(letters)
+            password += random.choice(digits)
+            password += random.choice(special_symbols)
+
     print(password)
 
 except ValueError:
