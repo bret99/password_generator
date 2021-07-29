@@ -3,7 +3,7 @@ import sys
 
 letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 digits = "1234567890"
-special_symbols = "!@#$%&amp;*"
+special_symbols = "!@#$%&*"
 password = ""
 
 try:
